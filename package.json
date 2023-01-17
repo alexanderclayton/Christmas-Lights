@@ -1,0 +1,28 @@
+{
+  "name": "christmas-lights",
+  "version": "1.0.0",
+  "description": "Christmas Lights One-Stop Shop",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexclaytonbootcamp/Christmas-Lights.git"
+  },
+  "author": "Alex Clayton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexclaytonbootcamp/Christmas-Lights/issues"
+  },
+  "homepage": "https://github.com/alexclaytonbootcamp/Christmas-Lights#readme",
+  "dependencies": {
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.28.0"
+  }
+}
