@@ -37,8 +37,16 @@ House.init(
         neighborhood: {
             type: DataTypes.STRING,
             allowNull: false,
+        },
+        paid: {
+            type: DataTypes.BOOLEAN,
+            allowNull: false,
+            defaultValue: false,
+        },
+        payment_type: {
+            type: DataTypes.STRING,
+            allowNull: true,
         }
-        //need to add neighborhood here...
     },
     {
         sequelize,
